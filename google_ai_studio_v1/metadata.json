@@ -1,0 +1,5 @@
+{
+  "name": "Photo Management Dashboard",
+  "description": "An interactive dashboard to view, sort, filter, and manage a collection of photos. Features multiple view modes, light/dark themes, and a detailed information panel.",
+  "requestFramePermissions": []
+}
