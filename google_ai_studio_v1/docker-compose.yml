@@ -10,5 +10,10 @@ services:
       - /app/node_modules
     environment:
       - NODE_ENV=development
+      - VITE_GOOGLE_SHEETS_API_KEY=${VITE_GOOGLE_SHEETS_API_KEY}
+      - VITE_GOOGLE_SHEETS_SPREADSHEET_ID=${VITE_GOOGLE_SHEETS_SPREADSHEET_ID}
+      - VITE_GOOGLE_SHEETS_RANGE=${VITE_GOOGLE_SHEETS_RANGE}
+    env_file:
+      - .env
     stdin_open: true
     tty: true
